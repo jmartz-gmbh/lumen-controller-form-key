@@ -9,5 +9,5 @@ Route::get('/form-key/', [
 
 Route::post('/form-key/', [
     'middleware' => [],
-    'uses' => \App\Http\Controllers\FormKeyController::class.'@validate'
+    'uses' => \App\Http\Controllers\FormKeyController::class.'@check'
 ]);
