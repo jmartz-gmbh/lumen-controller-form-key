@@ -1,0 +1,25 @@
+{
+    "name": "jonathan-martz/lumen-controller-form-key",
+    "description": "Php Lumen Form Key Controller",
+    "require": {
+        "php": "^8.1",
+        "illuminate/http": "^8.0.0",
+        "illuminate/support": "^8.0.0",
+        "illuminate/database": "^8.0.0",
+        "jonathan-martz/lumen-controller": "^0.4",
+        "ext-openssl": "*"
+    },
+    "autoload": {
+        "classmap": [
+            "controller/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Jonathan Martz",
+            "email": "composer@jmartz.de",
+            "homepage": "https://www.jmartz.de",
+            "role": "Developer"
+        }
+    ]
+}
